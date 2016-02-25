@@ -2,13 +2,13 @@
 
 params = {
     'bitcoin_main': {
-        'pubkey_address': 0,
-        'script_address': 5,
-        'genesis_hash': '000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f'
+        'pubkey_address': 130,
+        'script_address': 30,
+        'genesis_hash': '000004c2fc5fffb810dccc197d603690099a68305232e552d96ccbe8e2c52b75'
     },
     'bitcoin_test': {
-        'pubkey_address': 111,
-        'script_address': 196,
-        'genesis_hash': '000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943'
+        'pubkey_address': 68,
+        'script_address': 30,
+        'genesis_hash': '000004aa8e535bedb2186a3c1c2f3b119e70c2f61286b15ec98a81021c3a4a0c'
     }
 }

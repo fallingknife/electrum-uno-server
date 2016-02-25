@@ -77,7 +77,7 @@ class IrcThread(threading.Thread):
             s += 'p' + self.pruning_limit + ' '
 
         def add_port(letter, number):
-            DEFAULT_PORTS = {'t':'50001', 's':'50002', 'h':'8081', 'g':'8082'}
+            DEFAULT_PORTS = {'t':'50005', 's':'50006', 'h':'8005', 'g':'8006'}
             if not number: return ''
             if DEFAULT_PORTS[letter] == number:
                 return letter + ' '
@@ -95,7 +95,7 @@ class IrcThread(threading.Thread):
         threading.Thread.start(self)
 
     def on_connect(self, connection, event):
-        connection.join("#electrum")
+        connection.join("##electrum-uno")
 
     def on_join(self, connection, event):
         m = re.match("(E_.*)!", event.source)
