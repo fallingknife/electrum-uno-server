@@ -1,3 +1,5 @@
+WARNING: NOT MAINTAINED
+=========================================
 Electrum-server for the Electrum client
 =========================================
 
